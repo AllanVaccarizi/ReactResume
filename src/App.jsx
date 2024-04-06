@@ -10,9 +10,9 @@ export default function App() {
       <BrowserRouter>
         <Routes>
           <Route index element={<Homepage />} />
-          <Route path="/home" element={<Homepage />} />
-          <Route path="/portfolio" element={<PortfolioPage />} />
-          <Route path="/contact" element={<ContactPage />} />
+          <Route path="home" element={<Homepage />} />
+          <Route path="portfolio" element={<PortfolioPage />} />
+          <Route path="contact" element={<ContactPage />} />
           <Route path="*" element={<NoPage />} />
         </Routes>
       </BrowserRouter>
