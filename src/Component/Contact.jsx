@@ -44,13 +44,14 @@ const Contact = () => {
                     <Form.Label>Adresse mail</Form.Label>
                     <Form.Control type="mail" name="user_mail" placeholder="Entrez votre adresse mail" required/>
                 </Form.Group>
+
                 <Form.Group className="mb-3" controlId="Name">
                     <Form.Label>Votre message</Form.Label>
                     <Form.Control type="text" name="message" placeholder="Entrez votre message" required/>
                 </Form.Group>
 
                 <Button variant="primary" type="submit">
-                    Submit
+                    Envoyer
                 </Button>
         </Form>
     </Card>
