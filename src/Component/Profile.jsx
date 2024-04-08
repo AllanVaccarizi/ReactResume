@@ -1,5 +1,12 @@
+import { CardBody } from 'react-bootstrap';
 import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
+import Image from 'react-bootstrap/Image';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import Container from 'react-bootstrap/Container';
+import Pp from "../images/pp.png"
+import M2I from "../images/m2i.png"
 
 function Profile() {
   return (
@@ -11,40 +18,64 @@ function Profile() {
         </Card.Body>
     </Card>
     <Card style={{ padding: '1rem', margin: "1rem"}}>
-        <Card.Title>Qui suis-je ?</Card.Title>
-        <Card.Body>
-        Je m'appelle Allan Vaccarizi, j'ai 24 ans, et je suis en reconversion professionnelle. 
-        <br />
-        <br />
-        Issu du milieu de la restauration, j'ai décidé de me tourner vers le développement web, un domaine qui m'attire par ses multiples possibilités. 
-        Actuellement, je suis un cursus préparatoire nommé Pépi-dev à l'école M2I, afin d'acquérir les compétences nécessaires pour décrocher une alternance en développement web et mobile.
-        <br />
-        <br />
-         Mon objectif est de obtenir un diplôme dans ce domaine. Mon contrat en alternance débutera entre juillet et octobre.
-        </Card.Body>
-    </Card>
+        <Container>
+            <Row>
+                <Col style={{with:"50%"}}>
+                    
+                        <Card.Title>Qui suis-je ?</Card.Title>
+                        <Card.Body>
+                        Je m'appelle Allan Vaccarizi, j'ai 24 ans, et je suis en reconversion professionnelle. 
+                        <br />
+                        <br />
+                        Issu du milieu de la restauration, j'ai décidé de me tourner vers le développement web, un domaine qui m'attire par ses multiples possibilités. 
+                        Actuellement, je suis un cursus préparatoire nommé Pépi-dev à l'école M2I, afin d'acquérir les compétences nécessaires pour décrocher une alternance en développement web et mobile.
+                        <br />
+                        <br />
+                        Mon objectif est de obtenir un diplôme dans ce domaine. Mon contrat en alternance débutera entre juillet et octobre.
+                        </Card.Body>
+                    
+                </Col>
+                <Col>
+                    <CardBody style={{display:"flex", alignItems:"center", justifyContent:"center"}}>
+                        <Image src={Pp} rounded/>
+                    </CardBody>
+                </Col>    
+            </Row>            
+        </Container>
+    </ Card>
     <Card style={{ padding: '1rem', margin: "1rem"}}>
-        <Card.Title>Mon projet</Card.Title>
-        <Card.Body>
-        Actuellement inscrit à la M2I Academy, je suis immergé dans un cursus qui explore une gamme complète d'outils de développement, notamment HTML, CSS, Javascript, Wordpress et PHP, fournissant ainsi les bases nécessaires pour devenir un développeur compétent.
-        <br />
-        <br />
-        En parallèle, je m'engage dans des projets concrets pour appliquer mes compétences acquises. L'un de ces projets implique une collaboration avec un client, où nous avons élaboré un cahier des charges pour créer un site web dédié à son jeu vidéo en développement. À travers des rendez-vous bi-mensuels, nous suivons l'évolution du site, témoignant ainsi de mon engagement envers la satisfaction du client.
-        <br />
-        <br />
-        Désormais, je m'oriente vers une spécialisation, et vous naviguez actuellement sur mon premier site créé avec React, témoignant de ma volonté de rester à la pointe des technologies émergentes.    
-        <br />
-        <br />
-         L'opportunité de l'alternance constitue un tremplin pour l'expansion de mes compétences. Dans le cadre de ce programme, voici les domaines que j'explorerai avec mon école :
-         <br />
-         • Maîtrise des langages JavaScript, React, Vue.js et Node.js
-         <br />
-        • Développement avec PHP et gestion des bases de données (SQL et MongoDB)
-        <br />
-        • Conception UX
-        <br />
-        • Utilisation avancée des CMS tels que Wordpress et Prestashop
-        </Card.Body>
+    <Card.Title>Mon projet</Card.Title>
+        <Container>
+            <Row>
+                <Col>
+                    <CardBody style={{display:"flex", alignItems:"center", justifyContent:"center"}}>
+                        <Image src={M2I} rounded/>
+                    </CardBody>
+                </Col>
+                <Col>
+                    <Card.Body>
+                    Actuellement inscrit à la M2I Academy, je suis immergé dans un cursus qui explore une gamme complète d'outils de développement, notamment HTML, CSS, Javascript, Wordpress et PHP, fournissant ainsi les bases nécessaires pour devenir un développeur compétent.
+                    <br />
+                    <br />
+                    En parallèle, je m'engage dans des projets concrets pour appliquer mes compétences acquises. L'un de ces projets implique une collaboration avec un client, où nous avons élaboré un cahier des charges pour créer un site web dédié à son jeu vidéo en développement. À travers des rendez-vous bi-mensuels, nous suivons l'évolution du site, témoignant ainsi de mon engagement envers la satisfaction du client.
+                    <br />
+                    <br />
+                    Désormais, je m'oriente vers une spécialisation, et vous naviguez actuellement sur mon premier site créé avec React, témoignant de ma volonté de rester à la pointe des technologies émergentes.    
+                    <br />
+                    <br />
+                    L'opportunité de l'alternance constitue un tremplin pour l'expansion de mes compétences. Dans le cadre de ce programme, voici les domaines que j'explorerai avec mon école :
+                    <br />
+                    • Maîtrise des langages JavaScript, React, Vue.js et Node.js
+                    <br />
+                    • Développement avec PHP et gestion des bases de données (SQL et MongoDB)
+                    <br />
+                    • Conception UX
+                    <br />
+                    • Utilisation avancée des CMS tels que Wordpress et Prestashop
+                    </Card.Body>
+                </Col>
+            </Row>
+        </Container>
     </Card>
     <Card style={{ padding: '1rem', margin: "1rem"}}>
         <Card.Title>Mes passions</Card.Title>

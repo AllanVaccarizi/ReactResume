@@ -5,8 +5,6 @@ import Form from 'react-bootstrap/Form';
 import Card from 'react-bootstrap/Card';
 
 
-
-
 const Contact = () => {
     const form = useRef();
 

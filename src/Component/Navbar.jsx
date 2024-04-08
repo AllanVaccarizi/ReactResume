@@ -2,7 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-
+import CV from "../images/CV.pdf"
 function NavigationBar(){
     return (
         <>
@@ -14,7 +14,7 @@ function NavigationBar(){
                 <Nav className="me-auto">
                     <Nav.Link href="home">Accueil</Nav.Link>
                     <Nav.Link href="Portfolio">Portfolio</Nav.Link>
-                    <Nav.Link href="#">Mon CV</Nav.Link>
+                    <Nav.Link href={CV} without rel="noopener noreferrer" target="_blank">Mon CV</Nav.Link>
                     <Nav.Link href="Contact">Contact</Nav.Link>
                     <NavDropdown title="Mes réseaux" id="basic-nav-dropdown">
                     <NavDropdown.Item href="https://www.linkedin.com/in/allan-vaccarizi-9a4599203/" target='blank'>Linkedin</NavDropdown.Item>
