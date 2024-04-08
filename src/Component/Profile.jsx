@@ -20,20 +20,18 @@ function Profile() {
     <Card style={{ padding: '1rem', margin: "1rem"}}>
         <Container>
             <Row>
-                <Col style={{with:"50%"}}>
-                    
-                        <Card.Title>Qui suis-je ?</Card.Title>
-                        <Card.Body>
-                        Je m'appelle Allan Vaccarizi, j'ai 24 ans, et je suis en reconversion professionnelle. 
-                        <br />
-                        <br />
-                        Issu du milieu de la restauration, j'ai décidé de me tourner vers le développement web, un domaine qui m'attire par ses multiples possibilités. 
-                        Actuellement, je suis un cursus préparatoire nommé Pépi-dev à l'école M2I, afin d'acquérir les compétences nécessaires pour décrocher une alternance en développement web et mobile.
-                        <br />
-                        <br />
-                        Mon objectif est de obtenir un diplôme dans ce domaine. Mon contrat en alternance débutera entre juillet et octobre.
-                        </Card.Body>
-                    
+                <Col>
+                    <Card.Title>Qui suis-je ?</Card.Title>
+                    <Card.Body>
+                    Je m'appelle Allan Vaccarizi, j'ai 24 ans, et je suis en reconversion professionnelle. 
+                    <br />
+                    <br />
+                    Issu du milieu de la restauration, j'ai décidé de me tourner vers le développement web, un domaine qui m'attire par ses multiples possibilités. 
+                    Actuellement, je suis un cursus préparatoire nommé Pépi-dev à l'école M2I, afin d'acquérir les compétences nécessaires pour décrocher une alternance en développement web et mobile.
+                    <br />
+                    <br />
+                    Mon objectif est de obtenir un diplôme dans ce domaine. Mon contrat en alternance débutera entre juillet et octobre.
+                    </Card.Body>
                 </Col>
                 <Col>
                     <CardBody style={{display:"flex", alignItems:"center", justifyContent:"center"}}>
@@ -44,11 +42,13 @@ function Profile() {
         </Container>
     </ Card>
     <Card style={{ padding: '1rem', margin: "1rem"}}>
-    <Card.Title>Mon projet</Card.Title>
+    
         <Container>
             <Row>
                 <Col>
+                <Card.Title>Mon projet</Card.Title>
                     <CardBody style={{display:"flex", alignItems:"center", justifyContent:"center"}}>
+                    
                         <Image src={M2I} rounded/>
                     </CardBody>
                 </Col>
