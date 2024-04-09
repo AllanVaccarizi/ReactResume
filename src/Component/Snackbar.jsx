@@ -3,6 +3,8 @@ import { useImperativeHandle } from "react"
 import { forwardRef } from "react"
 import { useState } from "react"
 
+//Honestly i just followed this tutorial https://www.youtube.com/watch?v=uSxj3Rnu-Nk
+
 const Snackbar = forwardRef((props,ref) => {
     const [showSnackbar, setShowSnackbar] = useState(false)
 

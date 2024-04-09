@@ -1,12 +1,19 @@
 import Card from 'react-bootstrap/Card';
-import Game from "./TicTacToe"
+import Game from "./TicTacToe" //import Tic Tac Toe
 import FL from "../images/flstudio.png"
+import AOS from "aos" //dependecy to animate the cards
+import 'aos/dist/aos.css' //dependecy to animate the cards
 
 function Portfolio(){
+    
+    AOS.init() //initialize the aos dependency
+
     return (
         <>
-        <Card style={{ padding: '1rem', margin: "1rem"}}>
+        <Card style={{ padding: '1rem', margin: "1rem"}} data-aos="fade-right" data-aos-duration="1000">
+
             <Card.Title>Fl Studio</Card.Title>
+
             <Card.Body>
             <a href="https://fl-studio-2bjwcrdei-allan-vaccarizis-projects.vercel.app/" target='blank'>FL Studio</a> représente mon tout premier projet, un site conçu pour un studio de jeux vidéo. En collaboration avec le client, nous avons établi un <a href="https://docs.google.com/document/d/1WUgMZzwuuEUEuScYgNO1NS0GOMCoasARkjpBIgkjKAk/edit?usp=sharing">cahier des charges</a> détaillé et planifié des réunions régulières, tous les quinze jours, pour suivre l'avancement du site. 
             <br />
@@ -16,16 +23,21 @@ function Portfolio(){
             <br />
             À ce jour, le site a été entièrement conçu en HTML, CSS et JavaScript, sans l'utilisation d'aucun framework. En effet, j'ai délibérément choisi de créer mon premier site à partir de zéro afin de mieux appréhender la logique du développement web.
              </Card.Body>
-             <img src={FL}
-             />
+
+             <img src={FL}/>
+
         </Card>
-        <Card style={{ padding: '1rem', margin: "1rem"}}>
+
+        <Card style={{ padding: '1rem', margin: "1rem"}} data-aos="fade-left" data-aos-duration="1000">
+
             <Card.Title>Tic Tac Toe</Card.Title>
+
             <Card.Body >
                 Pendant mon apprentissage du langage React, j'ai plongé dans la documentation du site, ce qui m'a permis de développer un jeu de Tic Tac Toe.
              </Card.Body>
+
              <Card.Body style={{display:"flex", alignItems:"center", justifyContent:"center"}}>
-                <Game />
+                <Game />{/*Tic Tac Toe game*/}
              </Card.Body>
         </Card>
         </>

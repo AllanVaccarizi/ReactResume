@@ -19,16 +19,16 @@ function NavigationBar(){
 
                 <Nav className="me-auto">
 
-                    <NavLink to="/home" className="nav-link" activeClassName="active">Accueil</NavLink>
+                    <NavLink to="/home" className="nav-link" activeclassName="active">Accueil</NavLink>
                     
-                    <NavLink to="/portfolio" className="nav-link" activeClassName="active">Portfolio</NavLink>
+                    <NavLink to="/portfolio" className="nav-link" activeclassName="active">Portfolio</NavLink>
 
                     <a href={CV} without rel="noopener noreferrer" target="_blank" className="nav-link">Mon CV</a>
 
-                    <NavLink to="/contact" className="nav-link" activeClassName="active">Contact</NavLink>
+                    <NavLink to="/contact" className="nav-link" activeclassName="active">Contact</NavLink>
                     
                     <NavDropdown title="Mes réseaux" id="basic-nav-dropdown">
-                        
+
                         <NavDropdown.Item href="https://www.linkedin.com/in/allan-vaccarizi-9a4599203/" target='_blank'>
                             Linkedin
                         </NavDropdown.Item>

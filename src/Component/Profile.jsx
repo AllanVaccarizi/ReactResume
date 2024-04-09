@@ -1,4 +1,4 @@
-import { CardBody } from 'react-bootstrap';
+import { CardBody, CardTitle } from 'react-bootstrap';
 import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
 import Image from 'react-bootstrap/Image';
@@ -7,21 +7,35 @@ import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Pp from "../images/pp.png"
 import M2I from "../images/m2i.png"
+import SkillsBar from './SkillsBar'; //import Skillsbar.jsx
+import AOS from "aos" //dependecy to animate the cards
+import 'aos/dist/aos.css' //dependecy to animate the cards
 
 function Profile() {
+
+    AOS.init() //initialize the aos dependency
+
   return (
     <>
-    <Card style={{ padding: '1rem', margin: "1rem"}}>
+
+    <Card style={{ padding: '1rem', margin: "1rem"}} data-aos="fade-right" data-aos-duration="1000">
+
         <Card.Title>Bienvenue sur mon site !</Card.Title>
+        
         <Card.Body>
         Ici, vous découvrirez toutes les informations me concernant, qu'il s'agisse de mes réseaux sociaux ou de mes réalisations. 
         </Card.Body>
+
     </Card>
-    <Card style={{ padding: '1rem', margin: "1rem"}}>
+
+    <Card style={{ padding: '1rem', margin: "1rem"}} data-aos="fade-left" data-aos-duration="1000">
+        
         <Container>
             <Row>
                 <Col>
+
                     <Card.Title>Qui suis-je ?</Card.Title>
+
                     <Card.Body>
                     Je m'appelle Allan Vaccarizi, j'ai 24 ans, et je suis en reconversion professionnelle. 
                     <br />
@@ -32,27 +46,36 @@ function Profile() {
                     <br />
                     Mon objectif est de obtenir un diplôme dans ce domaine. Mon contrat en alternance débutera entre juillet et octobre.
                     </Card.Body>
+
                 </Col>
+
                 <Col>
+
                     <CardBody style={{display:"flex", alignItems:"center", justifyContent:"center"}}>
-                        <Image src={Pp} rounded/>
+                        <Image src={Pp} rounded />
                     </CardBody>
+
                 </Col>    
             </Row>            
         </Container>
     </ Card>
-    <Card style={{ padding: '1rem', margin: "1rem"}}>
+
+    <Card style={{ padding: '1rem', margin: "1rem"}} data-aos="fade-right" data-aos-duration="1000">
     
         <Container>
             <Row>
                 <Col>
-                <Card.Title>Mon projet</Card.Title>
+
+                    <Card.Title>Mon projet</Card.Title>
+
                     <CardBody style={{display:"flex", alignItems:"center", justifyContent:"center"}}>
-                    
                         <Image src={M2I} rounded/>
                     </CardBody>
+
                 </Col>
+
                 <Col>
+
                     <Card.Body>
                     Actuellement inscrit à la M2I Academy, je suis immergé dans un cursus qui explore une gamme complète d'outils de développement, notamment HTML, CSS, Javascript, Wordpress et PHP, fournissant ainsi les bases nécessaires pour devenir un développeur compétent.
                     <br />
@@ -73,22 +96,40 @@ function Profile() {
                     <br />
                     • Utilisation avancée des CMS tels que Wordpress et Prestashop
                     </Card.Body>
+
                 </Col>
             </Row>
         </Container>
     </Card>
-    <Card style={{ padding: '1rem', margin: "1rem"}}>
+
+    <Card style={{ padding: '1rem', margin: "1rem"}} data-aos="fade-left" data-aos-duration="1000">
+
+        <CardBody>
+            <SkillsBar /> {/*SkillsBar.jsx*/}
+        </CardBody>
+
+    </Card>
+
+    <Card style={{ padding: '1rem', margin: "1rem"}} data-aos="fade-right" data-aos-duration="1000">
+
         <Card.Title>Mes passions</Card.Title>
+
         <Card.Body>
+
             <ListGroup>
+
                 <ListGroup.Item style={{ fontWeight: "bold"}}>L'informatique</ListGroup.Item>
                     <Card.Body> Je consacre beaucoup de temps à être sur mon ordinateur, ce qui m'a d'ailleurs aidé à orienter ma carrière vers le développement web.</Card.Body>
+
                 <ListGroup.Item style={{ fontWeight: "bold"}}>Basketball</ListGroup.Item>
                     <Card.Body> Le basketball est un sport que je pratique régulièrement avec des amis depuis le lycée. Même si je n'ai jamais joué en club, j'apprécie toujours les moments passés sur le terrain.</Card.Body>
+
                 <ListGroup.Item style={{ fontWeight: "bold"}}>Jeux vidéos</ListGroup.Item>
                     <Card.Body> Les jeux vidéo occupent une grande partie de mon temps libre. Que ce soit sur PC ou console, ils sont pour moi un moyen de décompresser et de m'épanouir.</Card.Body>
+
                 <ListGroup.Item style={{ fontWeight: "bold"}}>Esport</ListGroup.Item>
                     <Card.Body> Je suis également passionné par l'esport. Suivre les compétitions est un passe-temps que j'apprécie énormément et qui me permet de rester connecté à cet univers.</Card.Body>
+                    
             </ListGroup>
         </Card.Body>
     </Card>
