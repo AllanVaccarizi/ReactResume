@@ -10,7 +10,7 @@ function SkillsBar () {
     const JS = 60
     const REACT = 30
     const BOOTSTRAP = 30
-    const PHP = 0
+    const PHP = 10
 
     //Value that will be used for the Skillbars
     
