@@ -24,7 +24,9 @@ function Portfolio(){
             <span style={{fontSize: '2rem'}}><a href="https://sviky.mjt.lu/nl3/W5wzcqzeukVgJidvD3WtEg?m=AVYAAFCMkyEAAc4TGaAAA7Wvc54AAYKId88An5mFACv0sABm-nEdgCWfslV3RoSyLC8Tid1ijgAolVE&b=4387beb7&e=c1b25500&x=5o62Qblb5-QvilNNOZPnp3FOQgOPlJ7r4GC62A11qiU" target="_blank">La Newsletter</a></span>
             </Card.Body>
 
-            <img src={NL} width={'50%'}/>
+            <CardBody style={{display:"flex", alignItems:"center", justifyContent:"center"}}>
+                <Image src={NL}/>
+            </CardBody>
 
         </Card>
 
@@ -37,9 +39,6 @@ function Portfolio(){
             </Card.Body>
 
             <img src={MA}/>
-            <CardBody style={{display:"flex", alignItems:"center", justifyContent:"center"}}>
-                <Image src={NL}/>
-            </CardBody>
 
         </Card>
 
