@@ -6,7 +6,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Pp from "../images/pp.png"
-import M2I from "../images/m2i.png"
+import OR from "../images/Oreegami.png"
 import SkillsBar from './SkillsBar'; //import Skillsbar.jsx
 import AOS from "aos" //dependecy to animate the cards
 import 'aos/dist/aos.css' //dependecy to animate the cards
@@ -37,14 +37,13 @@ function Profile() {
                     <Card.Title>Qui suis-je ?</Card.Title>
 
                     <Card.Body>
-                    Je m'appelle Allan Vaccarizi, j'ai 24 ans, et je suis en reconversion professionnelle. 
-                    <br />
-                    <br />
-                    Issu du milieu de la restauration, j'ai décidé de me tourner vers le développement web, un domaine qui m'attire par ses multiples possibilités. 
-                    Actuellement, je suis un cursus préparatoire nommé Pépi-dev à l'école M2I, afin d'acquérir les compétences nécessaires pour décrocher une alternance en développement web et mobile.
-                    <br />
-                    <br />
-                    Mon objectif est de obtenir un diplôme dans ce domaine. Mon contrat en alternance débutera entre juillet et octobre.
+                    Je m'appelle Allan Vaccarizi, j'ai 25 ans et je suis en reconversion professionnelle.
+                    <br/>
+                    <br/>
+                    Issu du milieu de la restauration, j'ai décidé de me tourner vers le marketing digital, un domaine qui m'attire par ses nombreuses possibilités. Actuellement, je suis une formation en marketing digital chez Oreegami, où j'acquiers les compétences nécessaires pour décrocher une alternance dès janvier 2025.
+                    <br/>
+                    <br/>
+                    Mon objectif est de m'épanouir dans ce domaine et de contribuer activement à la réussite des entreprises grâce à des stratégies digitales innovantes.
                     </Card.Body>
 
                 </Col>
@@ -69,7 +68,7 @@ function Profile() {
                     <Card.Title>Mon projet</Card.Title>
 
                     <CardBody style={{display:"flex", alignItems:"center", justifyContent:"center"}}>
-                        <Image src={M2I} rounded/>
+                        <Image src={OR} rounded/>
                     </CardBody>
 
                 </Col>
@@ -77,37 +76,24 @@ function Profile() {
                 <Col>
 
                     <Card.Body>
-                    Actuellement inscrit à la M2I Academy, je suis immergé dans un cursus qui explore une gamme complète d'outils de développement, notamment HTML, CSS, Javascript, Wordpress et PHP, fournissant ainsi les bases nécessaires pour devenir un développeur compétent.
-                    <br />
-                    <br />
-                    En parallèle, je m'engage dans des projets concrets pour appliquer mes compétences acquises. L'un de ces projets implique une collaboration avec un client, où nous avons élaboré un cahier des charges pour créer un site web dédié à son jeu vidéo en développement. À travers des rendez-vous bi-mensuels, nous suivons l'évolution du site, témoignant ainsi de mon engagement envers la satisfaction du client.
-                    <br />
-                    <br />
-                    Désormais, je m'oriente vers une spécialisation, et vous naviguez actuellement sur mon premier site créé avec React, témoignant de ma volonté de rester à la pointe des technologies émergentes.    
-                    <br />
-                    <br />
-                    L'opportunité de l'alternance constitue un tremplin pour l'expansion de mes compétences. Dans le cadre de ce programme, voici les domaines que j'explorerai avec mon école :
-                    <br />
-                    • Maîtrise des langages JavaScript, React, Vue.js et Node.js
-                    <br />
-                    • Développement avec PHP et gestion des bases de données (SQL et MongoDB)
-                    <br />
-                    • Conception UX
-                    <br />
-                    • Utilisation avancée des CMS tels que Wordpress et Prestashop
+                    Actuellement inscrit chez Oreegami, je suis immergé dans un programme intensif de 3 mois, axé sur la maîtrise des outils et leviers du marketing digital, notamment le SEO, SEA, les réseaux sociaux, et le email marketing, me fournissant ainsi les bases nécessaires pour exceller dans ce domaine en constante évolution.
+                    <br /> 
+                    <br /> 
+                    En parallèle, je participe à des projets concrets et à des challenges (hackathons) qui me permettent de mettre en pratique les connaissances acquises. Ces projets sont conçus pour simuler des situations réelles, et impliquent un travail d'équipe collaboratif, favorisant l'application directe des compétences dans des environnements dynamiques et compétitifs.
+                    <br /> 
+                    <br /> 
+                    L'opportunité d'une alternance en 2025 représente pour moi un tremplin pour continuer à développer mes compétences en marketing digital. Voici les principaux domaines que j'explore au sein de cette formation : 
+                    <br /> 
+                    • Maîtrise des leviers du marketing digital : SEO, SEA, réseaux sociaux, email marketing
+                    <br /> 
+                    • Gestion de projets marketing en situation réelle : participation à des challenges et hackathons
+                    <br /> 
+                    • Mise en pratique dans des environnements collaboratifs et dynamiques
                     </Card.Body>
 
                 </Col>
             </Row>
         </Container>
-    </Card>
-
-    <Card style={{ padding: '1rem', margin: "1rem"}} data-aos="fade-left" data-aos-duration="1000">
-
-        <CardBody>
-            <SkillsBar /> {/*SkillsBar.jsx*/}
-        </CardBody>
-
     </Card>
 
     <Card style={{ padding: '1rem', margin: "1rem"}} data-aos="fade-right" data-aos-duration="1000">

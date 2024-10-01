@@ -1,6 +1,8 @@
 import Card from 'react-bootstrap/Card';
 import Game from "./TicTacToe" //import Tic Tac Toe
 import FL from "../images/flstudio.png"
+import MA from "../images/MarronierTopinamour"
+import NL from "../images/NewsletterTopinamour"
 import AOS from "aos" //dependecy to animate the cards
 import 'aos/dist/aos.css' //dependecy to animate the cards
 
@@ -10,6 +12,31 @@ function Portfolio(){
 
     return (
         <>
+
+        <Card style={{ padding: '1rem', margin: "1rem"}} data-aos="fade-right" data-aos-duration="1000">
+
+            <Card.Title>Newsletter</Card.Title>
+
+            <Card.Body>
+            Dans le cadre de ma formation avec Oreegami sous la supervision de <a href="https://www.linkedin.com/in/wmoussaoui/" target='blank'>Wassila Moussaoui</a>, j’ai eu l’opportunité de travailler sur la création d’une newsletter fictive pour une marque. Ce projet m’a permis de mettre en pratique mes compétences en marketing digital, en collaboration avec une équipe dynamique, pour concevoir un contenu engageant et adapté aux besoins de la marque.
+            </Card.Body>
+
+            <img src={NL}/>
+
+        </Card>
+
+        <Card style={{ padding: '1rem', margin: "1rem"}} data-aos="fade-right" data-aos-duration="1000">
+
+            <Card.Title>Marronnier</Card.Title>
+
+            <Card.Body>
+            Dans le cadre de ma formation avec Oreegami sous la supervision de <a href="https://www.linkedin.com/in/wmoussaoui/" target='blank'>Wassila Moussaoui</a>, j'ai également travaillé sur la réalisation d’un marronnier marketing fictif pour une marque. Ce projet m’a permis de planifier et structurer des actions marketing tout au long de l’année, en alignant les campagnes avec les moments clés pour maximiser l’impact et la cohérence de la communication.
+            </Card.Body>
+
+            <img src={MA}/>
+
+        </Card>
+
         <Card style={{ padding: '1rem', margin: "1rem"}} data-aos="fade-right" data-aos-duration="1000">
 
             <Card.Title>Fl Studio</Card.Title>
