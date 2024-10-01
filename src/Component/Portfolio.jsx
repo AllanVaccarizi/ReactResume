@@ -1,3 +1,4 @@
+import { CardBody, CardTitle } from 'react-bootstrap';
 import Card from 'react-bootstrap/Card';
 import Game from "./TicTacToe" //import Tic Tac Toe
 import FL from "../images/flstudio.png"
