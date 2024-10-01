@@ -18,10 +18,10 @@ function Portfolio(){
             <Card.Title>Newsletter</Card.Title>
 
             <Card.Body>
-            Dans le cadre de ma formation avec Oreegami sous la supervision de <a href="https://www.linkedin.com/in/wmoussaoui/" target='blank'>Wassila Moussaoui</a>, j’ai eu l’opportunité de travailler sur la création d’une newsletter fictive pour une marque. Ce projet m’a permis de mettre en pratique mes compétences en marketing digital, en collaboration avec une équipe dynamique, pour concevoir un contenu engageant et adapté aux besoins de la marque.
+            Dans le cadre de ma formation avec <a href="https://oreegami.com/">Oreegami</a> sous la supervision de <a href="https://www.linkedin.com/in/wmoussaoui/" target='blank'>Wassila Moussaoui</a>, j’ai eu l’opportunité de travailler sur la création d’une newsletter fictive pour une marque. Ce projet m’a permis de mettre en pratique mes compétences en marketing digital, en collaboration avec une équipe dynamique, pour concevoir un contenu engageant et adapté aux besoins de la marque.
             </Card.Body>
 
-            <img src={NL}/>
+            <img src={NL} width={'50%'}/>
 
         </Card>
 
