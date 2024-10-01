@@ -2,7 +2,7 @@ import Card from 'react-bootstrap/Card';
 import Game from "./TicTacToe" //import Tic Tac Toe
 import FL from "../images/flstudio.png"
 import MA from "../images/MarronierTopinamour"
-import NL from "../images/NewsletterTopinamour"
+import NL from "../images/NewsletterTopinaour"
 import AOS from "aos" //dependecy to animate the cards
 import 'aos/dist/aos.css' //dependecy to animate the cards
 
