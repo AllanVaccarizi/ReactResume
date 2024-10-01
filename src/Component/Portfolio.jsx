@@ -27,7 +27,7 @@ function Portfolio(){
             </Card.Body>
 
             <CardBody style={{display:"flex", alignItems:"center", justifyContent:"center"}}>
-                <a href='https://topinamour.com/'><Image src={NL}/></a>
+                <a href='https://topinamour.com/' target='_blank'><Image src={NL}/></a>
             </CardBody>
 
         </Card>

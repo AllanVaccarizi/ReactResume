@@ -51,7 +51,7 @@ function Profile() {
                 <Col>
 
                     <CardBody style={{display:"flex", alignItems:"center", justifyContent:"center"}}>
-                        <Image src={Pp} rounded />
+                        <a href='https://www.linkedin.com/in/allanvaccarizi/' target='_blank'><Image src={Pp} rounded /></a>
                     </CardBody>
 
                 </Col>    
@@ -68,7 +68,7 @@ function Profile() {
                     <Card.Title>Mon projet</Card.Title>
 
                     <CardBody style={{display:"flex", alignItems:"center", justifyContent:"center"}}>
-                        <Image src={OR} rounded/>
+                    <a href="https://oreegami.com/" target="_blank"><Image src={OR} rounded/></a>
                     </CardBody>
 
                 </Col>
