@@ -55,25 +55,22 @@ function Profile() {
     </Container>
 </Card>
 
-    <Card style={{ padding: '1rem', margin: "1rem"}} data-aos="fade-right" data-aos-duration="1000">
-    
-        <Container>
-            <Row>
-                <Col>
+<Card style={{ padding: '1rem', margin: "1rem" }} data-aos="fade-right" data-aos-duration="1000">
+    <Container>
+        <Row>
+            {/* Colonne de l'image, qui sera au-dessus du texte sur les petits écrans */}
+            <Col xs={12} md={6} className="d-flex justify-content-center align-items-center mb-3 mb-md-0">
+                <CardBody style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
+                    <a href='https://www.linkedin.com/in/allanvaccarizi/' target='_blank' rel="noopener noreferrer">
+                        <Image src={OR} rounded className="img-fluid" alt="Photo du logo Oreegami" />
+                    </a>
+                </CardBody>
+            </Col>
 
-                    <Card.Title>Mon projet</Card.Title>
-
-                    <CardBody style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
-                        <a href='https://www.linkedin.com/in/allanvaccarizi/' target='_blank' rel="noopener noreferrer">
-                        <Image src={OR} rounded className="img-fluid" alt="Photo du logo Oreegami"/>
-                        </a>
-                    </CardBody>
-
-                </Col>
-
-                <Col>
-
-                    <Card.Body>
+            {/* Colonne de texte */}
+            <Col xs={12} md={6}>
+                <Card.Title>Mon projet</Card.Title>
+                <Card.Body>
                     Actuellement inscrit chez Oreegami, je suis immergé dans un programme intensif de 3 mois, axé sur la maîtrise des outils et leviers du marketing digital, notamment le SEO, SEA, les réseaux sociaux, et le email marketing, me fournissant ainsi les bases nécessaires pour exceller dans ce domaine en constante évolution.
                     <br /> 
                     <br /> 
@@ -87,12 +84,11 @@ function Profile() {
                     • Gestion de projets marketing en situation réelle : participation à des challenges et hackathons
                     <br /> 
                     • Mise en pratique dans des environnements collaboratifs et dynamiques
-                    </Card.Body>
-
-                </Col>
-            </Row>
-        </Container>
-    </Card>
+                </Card.Body>
+            </Col>
+        </Row>
+    </Container>
+</Card>
 
     <Card style={{ padding: '1rem', margin: "1rem"}} data-aos="fade-right" data-aos-duration="1000">
 
