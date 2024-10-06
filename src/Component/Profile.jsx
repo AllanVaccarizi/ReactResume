@@ -28,38 +28,32 @@ function Profile() {
 
     </Card>
 
-    <Card style={{ padding: '1rem', margin: "1rem"}} data-aos="fade-left" data-aos-duration="1000">
-        
-        <Container>
-            <Row>
-                <Col>
-
-                    <Card.Title>Qui suis-je ?</Card.Title>
-
-                    <Card.Body>
+    <Card style={{ padding: '1rem', margin: "1rem" }} data-aos="fade-left" data-aos-duration="1000">
+    <Container>
+        <Row>
+            {/* Pour les écrans plus petits, la colonne de l'image sera en premier */}
+            <Col xs={12} md={6} className="d-flex justify-content-center align-items-center mb-3 mb-md-0">
+                <CardBody style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
+                    <a href='https://www.linkedin.com/in/allanvaccarizi/' target='_blank' rel="noopener noreferrer">
+                        <Image src={Pp} rounded className="img-fluid" alt="Photo de Allan Vaccarizi" />
+                    </a>
+                </CardBody>
+            </Col>
+            <Col xs={12} md={6}>
+                <Card.Title>Qui suis-je ?</Card.Title>
+                <Card.Body>
                     Je m'appelle Allan Vaccarizi, j'ai 25 ans et je suis en reconversion professionnelle.
-                    <br/>
-                    <br/>
+                    <br />
+                    <br />
                     Issu du milieu de la restauration, j'ai décidé de me tourner vers le marketing digital, un domaine qui m'attire par ses nombreuses possibilités. Actuellement, je suis une formation en marketing digital chez Oreegami, où j'acquiers les compétences nécessaires pour décrocher une alternance dès janvier 2025.
-                    <br/>
-                    <br/>
+                    <br />
+                    <br />
                     Mon objectif est de m'épanouir dans ce domaine et de contribuer activement à la réussite des entreprises grâce à des stratégies digitales innovantes.
-                    </Card.Body>
-
-                </Col>
-
-                <Col>
-
-                    <CardBody style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
-                        <a href='https://www.linkedin.com/in/allanvaccarizi/' target='_blank' rel="noopener noreferrer">
-                        <Image src={Pp} rounded className="img-fluid" alt="Photo de Allan Vaccarizi"/>
-                        </a>
-                    </CardBody>
-
-                </Col>    
-            </Row>            
-        </Container>
-    </ Card>
+                </Card.Body>
+            </Col>
+        </Row>
+    </Container>
+</Card>
 
     <Card style={{ padding: '1rem', margin: "1rem"}} data-aos="fade-right" data-aos-duration="1000">
     
