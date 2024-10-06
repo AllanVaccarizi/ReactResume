@@ -90,7 +90,7 @@ function Profile() {
         </Container>
     </Card>
 
-    <Card style={{ padding: '1rem', margin: "1rem"}} data-aos="fade-right" data-aos-duration="1000">
+    <Card style={{ padding: '1rem', margin: "1rem"}} data-aos="fade-left" data-aos-duration="1000">
 
         <Card.Title>Mes passions</Card.Title>
 
