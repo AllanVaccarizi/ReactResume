@@ -28,9 +28,7 @@ function Portfolio(){
                 </Card.Body>
 
                 <CardBody style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
-                    <a href='https://topinamour.com/' target='_blank' rel="noopener noreferrer">
                         <Image src={AZ} className="img-fluid" alt="Image de mon travail sur Airtable et Zapier" />
-                    </a>
                 </CardBody>
 
         </Card>
