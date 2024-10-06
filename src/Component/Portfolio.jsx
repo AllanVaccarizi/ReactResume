@@ -80,6 +80,7 @@ function Portfolio(){
     
                 <Card.Body>
                     Pendant mon apprentissage du langage React, j'ai plongé dans la documentation du site, ce qui m'a permis de développer un jeu de Tic Tac Toe.
+                    <span style={{color:'grey'}}>L'affichage sur téléphone peut être disfonctionnel en fonction de la taille de votre appareil</span>
                 </Card.Body>
 
             <Card.Body style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
@@ -88,7 +89,7 @@ function Portfolio(){
                     <Game /> {/* Tic Tac Toe game */}
                 </div>
             </Card.Body>
-            
+
         </Card>
         </>
     )
