@@ -75,17 +75,20 @@ function Portfolio(){
 
         </Card>
 
-        <Card style={{ padding: '1rem', margin: "1rem"}} data-aos="fade-left" data-aos-duration="1000">
-
+        <Card style={{ padding: '1rem', margin: "1rem" }} data-aos="fade-left" data-aos-duration="1000">
             <Card.Title>Tic Tac Toe</Card.Title>
+    
+                <Card.Body>
+                    Pendant mon apprentissage du langage React, j'ai plongé dans la documentation du site, ce qui m'a permis de développer un jeu de Tic Tac Toe.
+                </Card.Body>
 
-            <Card.Body >
-                Pendant mon apprentissage du langage React, j'ai plongé dans la documentation du site, ce qui m'a permis de développer un jeu de Tic Tac Toe.
-             </Card.Body>
-
-             <Card.Body style={{display:"flex", alignItems:"center", justifyContent:"center"}}>
-                <Game />{/*Tic Tac Toe game*/}
-             </Card.Body>
+            <Card.Body style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
+                {/* Utiliser une classe pour s'assurer que le jeu est responsive */}
+                <div style={{ width: '100%', maxWidth: '300px' }}>
+                    <Game /> {/* Tic Tac Toe game */}
+                </div>
+            </Card.Body>
+            
         </Card>
         </>
     )
