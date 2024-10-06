@@ -26,8 +26,10 @@ function Portfolio(){
             <span style={{fontSize: '2rem'}}><a href="https://sviky.mjt.lu/nl3/W5wzcqzeukVgJidvD3WtEg?m=AVYAAFCMkyEAAc4TGaAAA7Wvc54AAYKId88An5mFACv0sABm-nEdgCWfslV3RoSyLC8Tid1ijgAolVE&b=4387beb7&e=c1b25500&x=5o62Qblb5-QvilNNOZPnp3FOQgOPlJ7r4GC62A11qiU" target="_blank" style={{textDecoration:'None'}}>La newsletter</a></span>
             </Card.Body>
 
-            <CardBody style={{display:"flex", alignItems:"center", justifyContent:"center"}}>
-                <a href='https://topinamour.com/' target='_blank'><Image src={NL}/></a>
+            <CardBody style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
+                <a href='https://topinamour.com/' target='_blank' rel="noopener noreferrer">
+                    <Image src={NL} className="img-fluid" alt="Description de l'image" />
+                </a>
             </CardBody>
 
         </Card>
@@ -37,7 +39,7 @@ function Portfolio(){
             <Card.Title>Marronnier</Card.Title>
 
             <Card.Body>
-            Dans le cadre de ma formation avec Oreegami sous la supervision de <a href="https://www.linkedin.com/in/wmoussaoui/" target='blank'>Wassila Moussaoui</a>, j'ai également travaillé sur la réalisation d’un <a href="https://docs.google.com/spreadsheets/d/1quQl_8jDYpA4p458pURlDLgJ5nGOaS7FqrcMUya7Dso/edit?usp=sharing" target='blank' style={{textDecoration:'None'}}>marronnier</a> marketing fictif pour une marque. Ce projet m’a permis de planifier et structurer des actions marketing tout au long de l’année, en alignant les campagnes avec les moments clés pour maximiser l’impact et la cohérence de la communication.
+            Dans le cadre de ma formation avec Oreegami sous la supervision de <a href="https://www.linkedin.com/in/wmoussaoui/" target='blank' style={{textDecoration:'None'}}>Wassila Moussaoui</a>, j'ai également travaillé sur la réalisation d’un <a href="https://docs.google.com/spreadsheets/d/1quQl_8jDYpA4p458pURlDLgJ5nGOaS7FqrcMUya7Dso/edit?usp=sharing" target='blank' style={{textDecoration:'None'}}>marronnier</a> marketing fictif pour une marque. Ce projet m’a permis de planifier et structurer des actions marketing tout au long de l’année, en alignant les campagnes avec les moments clés pour maximiser l’impact et la cohérence de la communication.
             <br/>
             <br/>
             <span style={{fontSize: '2rem'}}><a href="https://docs.google.com/spreadsheets/d/1quQl_8jDYpA4p458pURlDLgJ5nGOaS7FqrcMUya7Dso/edit?usp=sharing" target="_blank" style={{textDecoration:'None'}}>Le marronier</a></span>
