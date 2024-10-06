@@ -45,7 +45,11 @@ function Portfolio(){
             <span style={{fontSize: '2rem'}}><a href="https://docs.google.com/spreadsheets/d/1quQl_8jDYpA4p458pURlDLgJ5nGOaS7FqrcMUya7Dso/edit?usp=sharing" target="_blank" style={{textDecoration:'None'}}>Le marronier</a></span>
             </Card.Body>
 
-            <img src={MA}/>
+            <CardBody style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
+                <a href='https://topinamour.com/' target='_blank' rel="noopener noreferrer">
+                    <Image src={MA} className="img-fluid" alt="Image du marronnier" />
+                </a>
+            </CardBody>
 
         </Card>
 
