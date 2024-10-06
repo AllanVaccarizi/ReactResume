@@ -25,7 +25,6 @@ function Portfolio(){
                 Dans le cadre de ma formation avec <a href="https://oreegami.com/" target="_blank" style={{textDecoration:'None'}}>Oreegami</a>, j'ai eu le plaisir de découvrir le growth marketing automation grâce à <a href="https://www.linkedin.com/in/product-growth-scale/" target="_blank" style={{textDecoration:'None'}}>Jérémy François</a>. J'ai été introduit à des outils puissants comme Zapier et Airtable, ce qui m'a permis de créer une automatisation efficace : chaque nouvelle entrée dans ma base de données Airtable déclenche l'envoi d'un mail automatique, optimisant ainsi la gestion des contacts et le suivi des interactions. Cette introduction à l'automatisation de tâches a attisé ma curiosité, et j'ai hâte d'en découvrir davantage.
                 <br/>
                 <br/>
-                <span style={{fontSize: '2rem'}}><a href="https://sviky.mjt.lu/nl3/W5wzcqzeukVgJidvD3WtEg?m=AVYAAFCMkyEAAc4TGaAAA7Wvc54AAYKId88An5mFACv0sABm-nEdgCWfslV3RoSyLC8Tid1ijgAolVE&b=4387beb7&e=c1b25500&x=5o62Qblb5-QvilNNOZPnp3FOQgOPlJ7r4GC62A11qiU" target="_blank" style={{textDecoration:'None'}}>La newsletter</a></span>
                 </Card.Body>
 
                 <CardBody style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
