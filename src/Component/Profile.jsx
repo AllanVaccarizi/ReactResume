@@ -50,8 +50,10 @@ function Profile() {
 
                 <Col>
 
-                    <CardBody style={{display:"flex", alignItems:"center", justifyContent:"center"}}>
-                        <a href='https://www.linkedin.com/in/allanvaccarizi/' target='_blank'><Image src={Pp} rounded /></a>
+                    <CardBody style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
+                        <a href='https://www.linkedin.com/in/allanvaccarizi/' target='_blank' rel="noopener noreferrer">
+                        <Image src={Pp} rounded className="img-fluid" alt="Photo de Allan Vaccarizi"/>
+                        </a>
                     </CardBody>
 
                 </Col>    
@@ -67,8 +69,10 @@ function Profile() {
 
                     <Card.Title>Mon projet</Card.Title>
 
-                    <CardBody style={{display:"flex", alignItems:"center", justifyContent:"center"}}>
-                    <a href="https://oreegami.com/" target="_blank"><Image src={OR} rounded/></a>
+                    <CardBody style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
+                        <a href='https://www.linkedin.com/in/allanvaccarizi/' target='_blank' rel="noopener noreferrer">
+                        <Image src={OR} rounded className="img-fluid" alt="Photo du logo Oreegami"/>
+                        </a>
                     </CardBody>
 
                 </Col>

@@ -28,7 +28,7 @@ function Portfolio(){
 
             <CardBody style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
                 <a href='https://topinamour.com/' target='_blank' rel="noopener noreferrer">
-                    <Image src={NL} className="img-fluid" alt="Description de l'image" />
+                    <Image src={NL} className="img-fluid" alt="Logo topinamour" />
                 </a>
             </CardBody>
 
@@ -63,7 +63,11 @@ function Portfolio(){
             À ce jour, le site a été entièrement conçu en HTML, CSS et JavaScript, sans l'utilisation d'aucun framework. En effet, j'ai délibérément choisi de créer mon premier site à partir de zéro afin de mieux appréhender la logique du développement web.
              </Card.Body>
 
-             <img src={FL}/>
+             <CardBody style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
+                <a href='https://topinamour.com/' target='_blank' rel="noopener noreferrer">
+                    <Image src={FL} className="img-fluid" alt="Image du site FL Studio" />
+                </a>
+            </CardBody>
 
         </Card>
 
