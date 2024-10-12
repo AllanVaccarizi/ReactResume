@@ -6,6 +6,7 @@ import FL from "../images/flstudio.png"
 import MA from "../images/MarronierTopinamour.png"
 import NL from "../images/Topinamour.png"
 import AZ from "../images/AZ.png"
+import PR from "../images/TableauPrompt.png"
 import AOS from "aos" //dependecy to animate the cards
 import 'aos/dist/aos.css' //dependecy to animate the cards
 
@@ -15,7 +16,25 @@ function Portfolio(){
 
     return (
         <>
+        <Card style={{ padding: '1rem', margin: "1rem"}} data-aos="fade-left" data-aos-duration="1000">
 
+            <Card.Title>Prompt engineering</Card.Title>
+
+                <Card.Body>
+                Dans le cadre de mes projets en marketing digital, j’ai découvert et approfondi la discipline du prompt engineering, une compétence clé pour interagir efficacement avec les modèles d'intelligence artificielle, Perplexity, Chatgpt, Claude, Gemini. Cette expertise me permet de concevoir des prompts précis et optimisés, améliorant la pertinence des réponses générées. Cela m’a également permis de développer des solutions plus personnalisées, en utilisant l’IA pour répondre aux besoins spécifiques des utilisateurs et créer des expériences plus engageantes.
+
+                Cette approche stratégique renforce ma capacité à intégrer des technologies de pointe dans mes projets, optimisant les résultats et les interactions.
+                <br/>
+                <br/>
+                </Card.Body>
+
+                <CardBody style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
+                    <a href='https://topinamour.com/' target='_blank' rel="noopener noreferrer">
+                        <Image src={PR} className="img-fluid" alt="Tableau expliquant ma rédaction de prompt" />
+                    </a>
+                </CardBody>
+
+        </Card>
 
         <Card style={{ padding: '1rem', margin: "1rem"}} data-aos="fade-right" data-aos-duration="1000">
 
@@ -53,13 +72,13 @@ function Portfolio(){
 
         <Card style={{ padding: '1rem', margin: "1rem"}} data-aos="fade-right" data-aos-duration="1000">
 
-            <Card.Title>Marronnier</Card.Title>
+            <Card.Title>Calendrier éditorial</Card.Title>
 
                 <Card.Body>
-                Dans le cadre de ma formation avec Oreegami sous la supervision de <a href="https://www.linkedin.com/in/wmoussaoui/" target='blank' style={{textDecoration:'None'}}>Wassila Moussaoui</a>, j'ai également travaillé sur la réalisation d’un <a href="https://docs.google.com/spreadsheets/d/1quQl_8jDYpA4p458pURlDLgJ5nGOaS7FqrcMUya7Dso/edit?usp=sharing" target='blank' style={{textDecoration:'None'}}>marronnier</a> marketing fictif pour une marque. Ce projet m’a permis de planifier et structurer des actions marketing tout au long de l’année, en alignant les campagnes avec les moments clés pour maximiser l’impact et la cohérence de la communication.
+                Dans le cadre de ma formation avec Oreegami sous la supervision de <a href="https://www.linkedin.com/in/wmoussaoui/" target='blank' style={{textDecoration:'None'}}>Wassila Moussaoui</a>, j'ai travaillé sur la réalisation d’un <a href="https://docs.google.com/spreadsheets/d/1quQl_8jDYpA4p458pURlDLgJ5nGOaS7FqrcMUya7Dso/edit?usp=sharing" target='blank' style={{textDecoration:'None'}}>calendrier éditorial</a> fictif pour une marque. Ce projet m’a permis de planifier et structurer des actions marketing tout au d'un mois, en alignant les campagnes avec les moments clés pour maximiser l’impact et la cohérence de la communication.
                 <br/>
                 <br/>
-                <span style={{fontSize: '2rem'}}><a href="https://docs.google.com/spreadsheets/d/1quQl_8jDYpA4p458pURlDLgJ5nGOaS7FqrcMUya7Dso/edit?usp=sharing" target="_blank" style={{textDecoration:'None'}}>Le marronier</a></span>
+                <span style={{fontSize: '2rem'}}><a href="https://docs.google.com/spreadsheets/d/1quQl_8jDYpA4p458pURlDLgJ5nGOaS7FqrcMUya7Dso/edit?usp=sharing" target="_blank" style={{textDecoration:'None'}}>Calendrier éditorial</a></span>
                 </Card.Body>
 
                 <CardBody style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
