@@ -7,6 +7,7 @@ import MA from "../images/MarronierTopinamour.png"
 import NL from "../images/Topinamour.png"
 import AZ from "../images/AZ.png"
 import PR from "../images/TableauPrompt.png"
+import GA from "../images/GADS.png"
 import AOS from "aos" //dependecy to animate the cards
 import 'aos/dist/aos.css' //dependecy to animate the cards
 
@@ -16,6 +17,21 @@ function Portfolio(){
 
     return (
         <>
+        <Card style={{ padding: '1rem', margin: "1rem"}} data-aos="fade-right" data-aos-duration="1000">
+
+            <Card.Title>Google ADS</Card.Title>
+
+                <Card.Body>
+                Au cours de ma formation en marketing digital, j'ai approfondi l'utilisation de Google Ads, en explorant l'interface et ses fonctionnalités avancées. J'ai appris à créer des campagnes publicitaires en Search, en optimisant chaque étape : de la recherche de mots-clés stratégiques à la rédaction d'annonces percutantes. Cette expérience m’a permis de comprendre l’importance d’un ciblage précis pour maximiser le ROI et atteindre des audiences qualifiées. La mise en place d’une campagne m’a également familiarisé avec les outils d’analyse, indispensables pour affiner les performances et adapter les stratégies en temps réel, assurant ainsi une visibilité accrue et des résultats concrets pour les marques.
+                <br/>
+                <br/>
+                </Card.Body>
+
+                <CardBody style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
+                        <Image src={GA} className="img-fluid" alt="Screenshot interface google ads" />
+                </CardBody>
+
+        </Card>
         <Card style={{ padding: '1rem', margin: "1rem"}} data-aos="fade-left" data-aos-duration="1000">
 
             <Card.Title>Prompt engineering</Card.Title>
