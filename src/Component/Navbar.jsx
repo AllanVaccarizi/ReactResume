@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import CV from "../images/CVAllanVaccarizi.pdf";
+import CV from "../images/CV.pdf";
 
 function NavigationBar(){
     return (
