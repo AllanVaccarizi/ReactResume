@@ -7,6 +7,7 @@ import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Pp from "../images/pp.png"
 import OR from "../images/Oreegami.png"
+import FODM from "../images/CertifFundamentalsOfDigitalMarketing.pdf"
 import SkillsBar from './SkillsBar'; //import Skillsbar.jsx
 import AOS from "aos" //dependecy to animate the cards
 import 'aos/dist/aos.css' //dependecy to animate the cards
@@ -92,6 +93,17 @@ function Profile() {
 
     <Card style={{ padding: '1rem', margin: "1rem"}} data-aos="fade-left" data-aos-duration="1000">
 
+        <Card.Title>Certifications</Card.Title>
+
+            <Card.Body>
+
+                <ListGroup>
+                    <ListGroup.Item style={{ fontWeight: "bold"}}><a href={FODM}>Fundamentals of digital marketing</a></ListGroup.Item>
+                </ListGroup>
+            </Card.Body>
+    </Card>
+    <Card style={{ padding: '1rem', margin: "1rem"}} data-aos="fade-right" data-aos-duration="1000">
+
         <Card.Title>Mes passions</Card.Title>
 
             <Card.Body>
@@ -112,7 +124,7 @@ function Profile() {
                         
                 </ListGroup>
             </Card.Body>
-    </Card>
+        </Card>
     </>
   );
 }
