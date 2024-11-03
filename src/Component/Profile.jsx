@@ -8,6 +8,7 @@ import Container from 'react-bootstrap/Container';
 import Pp from "../images/pp.png"
 import OR from "../images/Oreegami.png"
 import FODM from "../images/CertifFundamentalsOfDigitalMarketing.pdf"
+import RDC from "../images/ReseaudeRecherche.pdf"
 import GL from "../images/LogoGoogle.webp"
 import SkillsBar from './SkillsBar'; //import Skillsbar.jsx
 import AOS from "aos" //dependecy to animate the cards
@@ -101,6 +102,14 @@ function Profile() {
                 <ListGroup>
                     <ListGroup.Item style={{ fontWeight: "bold", display: 'flex', alignItems: 'center' }}>
                         <a href={FODM} target="_blank" style={{textDecoration:'None'}}>Fundamentals of digital marketing</a>
+                        <img
+                        src={GL}
+                        alt="Google Logo"
+                        style={{ width: '1em', height: '1em', objectFit: 'contain' }}
+                        />
+                    </ListGroup.Item>
+                    <ListGroup.Item style={{ fontWeight: "bold", display: 'flex', alignItems: 'center' }}>
+                        <a href={RDC} target="_blank" style={{textDecoration:'None'}}>Certification Google Ads sur le Réseau de Recherche</a>
                         <img
                         src={GL}
                         alt="Google Logo"

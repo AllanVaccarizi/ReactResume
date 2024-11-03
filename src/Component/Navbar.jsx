@@ -25,19 +25,10 @@ function NavigationBar(){
 
                     <a href={CV} without rel="noopener noreferrer" target="_blank" className="nav-link">Mon CV</a>
 
-                    <NavLink to="/contact" className="nav-link" activeclassName="active">Contact</NavLink>
+                    <NavLink to="https://www.linkedin.com/in/allan-vaccarizi-9a4599203/" className="nav-link" activeclassName="active">Linkedin</NavLink>
+
+                    <NavLink to="https://github.com/AllanVaccarizi" className="nav-link" activeclassName="active">Github</NavLink>
                     
-                    <NavDropdown title="Mes réseaux" id="basic-nav-dropdown">
-
-                        <NavDropdown.Item href="https://www.linkedin.com/in/allan-vaccarizi-9a4599203/" target='_blank'>
-                            Linkedin
-                        </NavDropdown.Item>
-                        <NavDropdown.Item href="https://github.com/AllanVaccarizi" target='_blank'>
-                            GitHub
-                        </NavDropdown.Item>
-
-                    </NavDropdown>
-
                 </Nav>
 
                 </Navbar.Collapse>
