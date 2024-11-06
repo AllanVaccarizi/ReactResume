@@ -9,7 +9,7 @@ import Pp from "../images/pp.png"
 import OR from "../images/Oreegami.png"
 import FODM from "../images/CertifFundamentalsOfDigitalMarketing.pdf"
 import RDC from "../images/ReseaudeRecherche.pdf"
-import DIS from "../images/Certificationdisplay"
+import DIS from "../images/Certificationdisplay.pdf"
 import GL from "../images/LogoGoogle.webp"
 import SkillsBar from './SkillsBar'; //import Skillsbar.jsx
 import AOS from "aos" //dependecy to animate the cards
