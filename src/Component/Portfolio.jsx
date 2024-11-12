@@ -23,12 +23,16 @@ function Portfolio(){
 
                 <Card.Body>
                 Au cours de ma formation en marketing digital, j'ai approfondi l'utilisation de Google Ads, en explorant l'interface et ses fonctionnalités avancées. J'ai appris à créer des campagnes publicitaires en Search, en optimisant chaque étape : de la recherche de mots-clés stratégiques à la rédaction d'annonces percutantes. Cette expérience m’a permis de comprendre l’importance d’un ciblage précis pour maximiser le ROI et atteindre des audiences qualifiées. La mise en place d’une campagne m’a également familiarisé avec les outils d’analyse, indispensables pour affiner les performances et adapter les stratégies en temps réel, assurant ainsi une visibilité accrue et des résultats concrets pour les marques.
+
+                Vous trouverez un résumé de mon travail <a href="https://docs.google.com/document/d/1NU8UtM8Xk8NzbWzJ5-LaEqHkpHcBnCeGYQigYQ5eV2w/edit?tab=t.0" target="_blank" style={{textDecoration:'None'}}>ici</a>
                 <br/>
                 <br/>
                 </Card.Body>
 
                 <CardBody style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
+                    <a href="https://docs.google.com/document/d/1NU8UtM8Xk8NzbWzJ5-LaEqHkpHcBnCeGYQigYQ5eV2w/edit?tab=t.0" target="_blank" rel="noopener noreferrer">
                         <Image src={GA} className="img-fluid" alt="Screenshot interface google ads" />
+                    </a>
                 </CardBody>
 
         </Card>
