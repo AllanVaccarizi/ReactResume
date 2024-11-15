@@ -17,6 +17,7 @@ function Portfolio(){
 
     return (
         <>
+        <div style={{ overflow: 'hidden' }}>
         <Card style={{ padding: '1rem', margin: "1rem"}} data-aos="fade-right" data-aos-duration="1000">
 
             <Card.Title>Google ADS</Card.Title>
@@ -149,6 +150,7 @@ function Portfolio(){
             </Card.Body>
 
         </Card>
+        </div>
         </>
     )
 }
