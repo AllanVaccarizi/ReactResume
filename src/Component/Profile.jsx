@@ -21,8 +21,8 @@ function Profile() {
 
   return (
     <>
-
-    <Card style={{ padding: '1rem', margin: "1rem" }}  >
+    <div style={{ overflow: 'hidden' }}>
+    <Card style={{ padding: '1rem', margin: "1rem"}} data-aos="fade-right" data-aos-duration="1000">
 
         <Card.Title>Bienvenue sur mon site !</Card.Title>
         
@@ -31,8 +31,9 @@ function Profile() {
         </Card.Body>
 
     </Card>
+    </div>
 
-    <Card style={{ padding: '1rem', margin: "1rem" }} >
+    <Card style={{ padding: '1rem', margin: "1rem" }} data-aos="fade-left" data-aos-duration="1000">
         <Container>
             <Row>
                 {/* Pour les écrans plus petits, la colonne de l'image sera en premier */}
@@ -59,7 +60,7 @@ function Profile() {
         </Container>
     </Card>
 
-    <Card style={{ padding: '1rem', margin: "1rem" }} >
+    <Card style={{ padding: '1rem', margin: "1rem" }} data-aos="fade-right" data-aos-duration="1000">
         <Container>
             <Row>
                 {/* Colonne de l'image, qui sera au-dessus du texte sur les petits écrans */}
@@ -94,7 +95,7 @@ function Profile() {
         </Container>
     </Card>
 
-    <Card style={{ padding: '1rem', margin: "1rem"}} >
+    <Card style={{ padding: '1rem', margin: "1rem"}} data-aos="fade-left" data-aos-duration="1000">
 
         <Card.Title>Certifications</Card.Title>
 
@@ -133,7 +134,7 @@ function Profile() {
                 </ListGroup>
             </Card.Body>
     </Card>
-    <Card style={{ padding: '1rem', margin: "1rem"}} >
+    <Card style={{ padding: '1rem', margin: "1rem"}} data-aos="fade-right" data-aos-duration="1000">
 
         <Card.Title>Mes passions</Card.Title>
 
@@ -156,6 +157,7 @@ function Profile() {
                 </ListGroup>
             </Card.Body>
         </Card>
+        
     </>
   );
 }
