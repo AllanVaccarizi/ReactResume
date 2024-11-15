@@ -31,7 +31,7 @@ function Profile() {
         </Card.Body>
 
     </Card>
-    </div>
+    
 
     <Card style={{ padding: '1rem', margin: "1rem" }} data-aos="fade-left" data-aos-duration="1000">
         <Container>
@@ -157,7 +157,7 @@ function Profile() {
                 </ListGroup>
             </Card.Body>
         </Card>
-        
+        </div>
     </>
   );
 }
