@@ -8,6 +8,8 @@ import NL from "../images/Topinamour.png"
 import AZ from "../images/AZ.png"
 import PR from "../images/TableauPrompt.png"
 import GA from "../images/GADS.png"
+import FA from "../images/MADS.png"
+import G4 from "../images/GA4.png"
 import AOS from "aos" //dependecy to animate the cards
 import 'aos/dist/aos.css' //dependecy to animate the cards
 
@@ -18,6 +20,74 @@ function Portfolio(){
     return (
         <>
         <div style={{ overflow: 'hidden' }}>
+        <Card style={{ padding: '1rem', margin: "1rem"}} data-aos="fade-right" data-aos-duration="1000">
+
+            <Card.Title>Google ADS</Card.Title>
+
+                <Card.Body>
+                Au cours de ma formation chez Oreegami, j'ai découvert et approfondi l'utilisation de Google Analytics 4 (GA4), une plateforme essentielle pour tout professionnel du marketing digital. GA4 se distingue par sa capacité à fournir une analyse approfondie des visiteurs d’un site internet, permettant de mieux comprendre leur comportement et d’optimiser les campagnes publicitaires.
+                <br/>
+                <br/>
+                <div style={{ fontWeight: 'bold' }}>L’analyse des données : une richesse d’informations</div>
+                Google Analytics 4 est une véritable mine d’or d’informations. J'ai appris à naviguer dans l’interface pour identifier les principaux KPIs tels que le taux de conversion, les sources de trafic ou encore le temps passé sur une page. Ces données permettent d’analyser en profondeur l’audience et d’ajuster les stratégies marketing en conséquence, favorisant une meilleure allocation des budgets publicitaires.
+                <br/>
+                <br/>
+                <div style={{ fontWeight: 'bold' }}>Exploiter GA4 pour des stratégies de publicité en ligne</div>
+                L’utilisation de GA4 va bien au-delà des simples statistiques. En marketing digital, la précision des campagnes dépend de la qualité des insights tirés des données. Avec GA4, j’ai pu définir des audiences ciblées, identifier les pages performantes et repérer les opportunités d’amélioration, rendant mes campagnes publicitaires plus efficaces et adaptées.
+                <br/>
+                <br/>
+                <div style={{ fontWeight: 'bold' }}>Poser une balise Google Tag Manager : le début de la personnalisation</div>
+                Dans le cadre de cette formation, j’ai également appris à utiliser Google Tag Manager pour poser des balises de suivi. Cela m’a permis de mesurer des événements spécifiques, comme des clics ou des conversions, et d’enrichir les données collectées sur GA4. Cette personnalisation garantit une compréhension encore plus fine des interactions des visiteurs sur un site.
+                <br/>
+                <br/>
+                <div style={{ fontWeight: 'bold' }}>Pourquoi Google Analytics 4 est essentiel</div>
+                GA4 est aujourd’hui indispensable pour toute stratégie marketing efficace. Qu’il s’agisse d’optimiser un site e-commerce, de suivre les performances d’un blog ou de maximiser l’impact des campagnes publicitaires, cet outil permet d’obtenir des résultats mesurables et concrets.
+                <br/>
+                <br/>
+                En maîtrisant GA4, je suis en mesure d’aider les marques à mieux comprendre leur audience, à optimiser leur stratégie digitale et à maximiser leur ROI grâce à une exploitation intelligente des données.
+                <br/>
+                <br/>
+                </Card.Body>
+
+                <CardBody style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
+                        <Image src={G4} className="img-fluid" alt="Screenshot interface google ads" />
+                </CardBody>
+
+        </Card>
+        <Card style={{ padding: '1rem', margin: "1rem"}} data-aos="fade-left" data-aos-duration="1000">
+
+            <Card.Title>Meta Ads</Card.Title>
+
+                <Card.Body>
+                Dans le cadre de ma formation en marketing digital chez Oreegami, j'ai développé une expertise dans l'utilisation de Meta Ads, une plateforme incontournable pour créer des campagnes publicitaires impactantes sur Facebook et Instagram. Cet outil offre des possibilités infinies pour atteindre des audiences spécifiques et maximiser les résultats publicitaires, qu'il s'agisse de générer des conversions ou d'accroître la notoriété d'une marque.
+                <br/>
+                <br/>
+                <div style={{ fontWeight: 'bold' }}>Création de campagnes ciblées : l'importance des KPI</div>
+                Grâce à Meta Ads, j’ai appris à structurer des campagnes selon des objectifs précis, tels que le trafic, les ventes ou l’engagement. En segmentant les audiences, par centres d’intérêt, comportements ou données démographiques, j'ai pu garantir que chaque publicité atteigne le bon public. L'intégration des KPI, tels que le taux de clics, le coût par conversion ou le ROAS, permet de mesurer et d'optimiser la performance en temps réel, assurant un retour sur investissement significatif.
+                <br/>
+                <br/>
+                <div style={{ fontWeight: 'bold' }}>Personnalisation et créativité au service de l'engagement</div>
+                L'un des points forts de Meta Ads réside dans sa capacité à adapter les formats publicitaires aux préférences des utilisateurs. Que ce soit via des vidéos percutantes, des carrousels interactifs ou des images statiques attractives, j'ai appris à créer des annonces qui captivent l'attention tout en respectant les meilleures pratiques de design publicitaire.
+                <br/>
+                <br/>
+                <div style={{ fontWeight: 'bold' }}>Une stratégie orientée résultats</div>
+                En utilisant les outils d'analyse de Meta Ads, comme le Pixel Meta ou les tests A/B, j’ai compris comment identifier les points à améliorer dans une campagne pour maximiser son efficacité. Cette méthodologie permet de s’adapter rapidement aux performances et de répondre aux besoins des différentes audiences tout au long de l'entonnoir de conversion.
+                <br/>
+                <br/>
+                <div style={{ fontWeight: 'bold' }}>Walk in Paris</div>
+                J’ai eu l’opportunité de travailler sur un projet concret pour la marque Walk in Paris. Mon objectif était de concevoir des campagnes publicitaires mettant en valeur leur nouvelle collection, en mêlant stratégie de notoriété et conversion. J’ai travaillé sur la définition d’audiences clés, l’élaboration de visuels impactants, et l’analyse des performances à travers des KPIs pertinents. Ce projet m’a permis de mieux comprendre comment adapter les publicités à une cible spécifique tout en respectant l’identité de la marque.
+                <br/>
+                <br/>
+                Grâce à mon apprentissage de Meta Ads, je suis désormais capable de créer, gérer et optimiser des campagnes publicitaires adaptées aux objectifs des entreprises.
+                </Card.Body>
+
+                <CardBody style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
+                        <Image src={FA} className="img-fluid" alt="Screenshot interface google ads" />
+                </CardBody>
+
+        </Card>
+
+
         <Card style={{ padding: '1rem', margin: "1rem"}} data-aos="fade-right" data-aos-duration="1000">
 
             <Card.Title>Google ADS</Card.Title>
