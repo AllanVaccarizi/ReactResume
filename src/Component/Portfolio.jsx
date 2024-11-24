@@ -22,7 +22,7 @@ function Portfolio(){
         <div style={{ overflow: 'hidden' }}>
         <Card style={{ padding: '1rem', margin: "1rem"}} data-aos="fade-right" data-aos-duration="1000">
 
-            <Card.Title>Google ADS</Card.Title>
+            <Card.Title>Explorer Google Analytics 4 : Un outil incontournable en marketing digital</Card.Title>
 
                 <Card.Body>
                 Au cours de ma formation chez Oreegami, j'ai découvert et approfondi l'utilisation de Google Analytics 4 (GA4), une plateforme essentielle pour tout professionnel du marketing digital. GA4 se distingue par sa capacité à fournir une analyse approfondie des visiteurs d’un site internet, permettant de mieux comprendre leur comportement et d’optimiser les campagnes publicitaires.
@@ -56,7 +56,7 @@ function Portfolio(){
         </Card>
         <Card style={{ padding: '1rem', margin: "1rem"}} data-aos="fade-left" data-aos-duration="1000">
 
-            <Card.Title>Meta Ads</Card.Title>
+            <Card.Title>Meta Ads : Un outil essentiel pour des publicités ciblées et performantes</Card.Title>
 
                 <Card.Body>
                 Dans le cadre de ma formation en marketing digital chez Oreegami, j'ai développé une expertise dans l'utilisation de Meta Ads, une plateforme incontournable pour créer des campagnes publicitaires impactantes sur Facebook et Instagram. Cet outil offre des possibilités infinies pour atteindre des audiences spécifiques et maximiser les résultats publicitaires, qu'il s'agisse de générer des conversions ou d'accroître la notoriété d'une marque.
@@ -90,11 +90,36 @@ function Portfolio(){
 
         <Card style={{ padding: '1rem', margin: "1rem"}} data-aos="fade-right" data-aos-duration="1000">
 
-            <Card.Title>Google ADS</Card.Title>
+            <Card.Title>Découvrir et exploiter Google Ads : Maîtrise d’une plateforme essentielle</Card.Title>
 
                 <Card.Body>
-                Au cours de ma formation en marketing digital, j'ai approfondi l'utilisation de Google Ads, en explorant l'interface et ses fonctionnalités avancées. J'ai appris à créer des campagnes publicitaires en Search, en optimisant chaque étape : de la recherche de mots-clés stratégiques à la rédaction d'annonces percutantes. Cette expérience m’a permis de comprendre l’importance d’un ciblage précis pour maximiser le ROI et atteindre des audiences qualifiées. La mise en place d’une campagne m’a également familiarisé avec les outils d’analyse, indispensables pour affiner les performances et adapter les stratégies en temps réel, assurant ainsi une visibilité accrue et des résultats concrets pour les marques.
-
+                Au cours de ma formation en marketing digital chez Oreegami, j'ai exploré en profondeur Google Ads, un outil incontournable pour toute stratégie publicitaire en ligne. Cette expérience m'a permis de comprendre non seulement les aspects techniques de la plateforme, mais aussi son rôle stratégique pour atteindre des objectifs marketing concrets. Voici un aperçu de ce que j’ai appris et réalisé.
+                <br/>
+                <br/>
+                <div style={{ fontWeight: 'bold' }}>Créer des campagnes efficaces grâce à l’analyse des mots-clés</div>
+                Un élément central de ma formation a été l’importance de la recherche de mots-clés. J’ai appris à identifier des termes stratégiques alignés avec les intentions de recherche des audiences cibles. Ces mots-clés servent de fondation pour concevoir des annonces qui captent l’attention et incitent à l’action.
+                <br/>
+                <br/>
+                <div style={{ fontWeight: 'bold' }}>Optimiser le ROI grâce aux KPI</div>
+                Les indicateurs de performance clés (KPI), tels que le taux de clic (CTR) ou le coût par acquisition (CPA), sont au cœur de la gestion des campagnes. Ils offrent une vision claire des performances et permettent des ajustements en temps réel. J'ai également compris comment les données des mots-clés influencent la répartition des budgets publicitaires pour maximiser le retour sur investissement (ROI).
+                <br/>
+                <br/>
+                <div style={{ fontWeight: 'bold' }}>Rédiger des annonces qui convertissent</div>
+                La création de messages percutants est cruciale pour convertir les impressions en actions. En m’entraînant à rédiger des annonces adaptées aux recherches des utilisateurs, j'ai appris à équilibrer créativité et pertinence pour générer des clics qualifiés.
+                <br/>
+                <br/>
+                <div style={{ fontWeight: 'bold' }}>Analyser et ajuster en continu</div>
+                Un autre aspect clé de ma formation a été l’utilisation des outils d’analyse de Google Ads. En examinant les rapports de campagne, j’ai appris à évaluer les performances globales et spécifiques, comme celles des groupes d’annonces ou des mots-clés, pour optimiser les résultats.
+                <br/>
+                <br/>
+                <div style={{ fontWeight: 'bold' }}>Vers une stratégie digitale holistique</div>
+                En intégrant ces compétences, je suis désormais capable de contribuer à des stratégies digitales complètes, de la conception des campagnes publicitaires à leur évaluation détaillée. Cette expertise me permet de proposer des solutions adaptées à chaque besoin, qu'il s'agisse de renforcer la notoriété ou de booster les conversions.
+                <br/>
+                <br/>
+                <div style={{ fontWeight: 'bold' }}>Google Ads, une compétence indispensable</div>
+                Ma maîtrise de Google Ads constitue une compétence clé dans le paysage numérique actuel. Grâce à cette formation, je peux aider les marques à atteindre leurs objectifs marketing en alliant données, créativité et optimisation continue.
+                <br/>
+                <br/>
                 Vous trouverez un résumé de mon travail <a href="https://docs.google.com/document/d/1NU8UtM8Xk8NzbWzJ5-LaEqHkpHcBnCeGYQigYQ5eV2w/edit?tab=t.0" target="_blank" style={{textDecoration:'None'}}>ici</a>
                 <br/>
                 <br/>
@@ -109,12 +134,25 @@ function Portfolio(){
         </Card>
         <Card style={{ padding: '1rem', margin: "1rem"}} data-aos="fade-left" data-aos-duration="1000">
 
-            <Card.Title>Prompt engineering</Card.Title>
+            <Card.Title>Maîtriser le Prompt Engineering : Un Atout Stratégique en Marketing Digital</Card.Title>
 
                 <Card.Body>
-                Dans le cadre de mes projets en marketing digital, j’ai découvert et approfondi la discipline du prompt engineering, une compétence clé pour interagir efficacement avec les modèles d'intelligence artificielle, Perplexity, Chatgpt, Claude, Gemini. Cette expertise me permet de concevoir des prompts précis et optimisés, améliorant la pertinence des réponses générées. Cela m’a également permis de développer des solutions plus personnalisées, en utilisant l’IA pour répondre aux besoins spécifiques des utilisateurs et créer des expériences plus engageantes.
-
-                Cette approche stratégique renforce ma capacité à intégrer des technologies de pointe dans mes projets, optimisant les résultats et les interactions.
+                Dans l'univers en constante évolution du marketing digital, l'intégration de l'intelligence artificielle (IA) est devenue incontournable. Au cours de mes projets, j'ai développé une expertise en prompt engineering, une discipline clé pour exploiter efficacement les modèles d'IA tels que Perplexity, ChatGPT, Claude ou Gemini.
+                <br/>
+                <br/>
+                <div style={{ fontWeight: 'bold' }}>L'Art de la Précision</div>
+                Le prompt engineering consiste à concevoir des instructions précises et optimisées pour guider les IA à produire des réponses pertinentes et adaptées. Grâce à cette compétence, j'ai pu maximiser l'efficacité des outils d'IA en générant des contenus personnalisés et en répondant aux besoins spécifiques des utilisateurs. Cela garantit une meilleure expérience, qu'il s'agisse de rédiger des textes ciblés, de développer des scénarios interactifs ou de résoudre des problématiques complexes.
+                <br/>
+                <br/>
+                <div style={{ fontWeight: 'bold' }}>Gain de Temps et Efficacité</div>
+                L'utilisation des intelligences artificielles révolutionne la manière de travailler. Les outils d'IA permettent de réduire considérablement le temps consacré à des tâches répétitives, comme l'analyse des données ou la rédaction de rapports. Cela libère du temps pour se concentrer sur des activités à plus forte valeur ajoutée, comme la création de stratégies ou l'interprétation des insights.
+                <br/>
+                <br/>
+                <div style={{ fontWeight: 'bold' }}>Une Approche Stratégique et Performante</div>
+                En intégrant le prompt engineering dans mes projets, j'ai appris à tirer parti des technologies de pointe pour renforcer les campagnes marketing. Cette approche me permet d'améliorer l'engagement des audiences, d'optimiser les processus, et d'assurer des résultats mesurables grâce à une analyse fine des KPI.
+                <br/>
+                <br/>
+                Le prompt engineering n'est pas seulement une compétence technique, mais une clé pour maximiser l'impact des outils d'IA dans un monde numérique où chaque détail compte. Avec cette maîtrise, je suis prêt à aider les marques à repousser les limites de l'innovation et à transformer leur stratégie digitale.
                 <br/>
                 <br/>
                 </Card.Body>
